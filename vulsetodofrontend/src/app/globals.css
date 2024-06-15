@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +29,18 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.scrollable {
+  max-height: 70vh;
+  /* Adjust this value as needed */
+  overflow-y: auto;
+}
+
+.list-wrapper {
+  max-height: calc(100% - 40px);
+}
+
+.listlists-wrapper {
+  max-height: calc(100% - 80px);
 }

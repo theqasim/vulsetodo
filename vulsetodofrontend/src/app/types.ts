@@ -1,12 +1,12 @@
 // src/types.ts
 export interface TodoItem {
-    id: number;
-    name: string;
-    completed: boolean;
-  }
+  id: number;
+  name: string;
+  completed: boolean;
+}
 
-  export interface TodoList {
-    id: number;
-    name: string;
-    items: TodoItem[];
-  }
+export interface TodoList {
+  id: number;
+  name: string;
+  items: TodoItem[];
+}
