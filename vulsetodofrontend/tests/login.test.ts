@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 
 test.describe("Login functionality", () => {
   test("Login failed with incorrect credentials", async ({ page }) => {
-    await page.goto("http://localhost:3000/login");
+    await page.goto("http://localhost:3000/");
 
     await page.fill('input[id="email"]', "wrongemail@example.com");
 
