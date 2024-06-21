@@ -89,7 +89,7 @@ NEXTAUTH_URL="http://localhost:3000"
 npm install
 ```
 
-#### 15. Start the frontend server:
+#### 15. Generate the Prisma client for the frontend:
 
 ```sh
 npx prisma generate
