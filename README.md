@@ -124,7 +124,7 @@ cd ../vulsetodofrontend
 #### 3. Run the command below:
 
 ```sh
-npm playwright test
+npx playwright test
 ```
 
 #### Note: The frontend and backend must be running to perform this test.
