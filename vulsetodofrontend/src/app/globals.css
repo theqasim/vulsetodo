@@ -33,7 +33,6 @@ body {
 
 .scrollable {
   max-height: 70vh;
-  /* Adjust this value as needed */
   overflow-y: auto;
 }
 

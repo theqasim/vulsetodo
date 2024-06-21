@@ -1,4 +1,3 @@
-// src/types.ts
 export interface TodoItem {
   id: number;
   name: string;
